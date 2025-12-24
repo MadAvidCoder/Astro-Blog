@@ -139,7 +139,7 @@ article {
     flex-direction: column;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.25rem;
+    gap: 4rem;
 }
 
 .post-card {
@@ -152,6 +152,7 @@ article {
     flex-direction: column;
     justify-content: space-between;
     height: 100px;
+    width: 300px;
     border-top: 6px solid var(--accent);
 }
 
