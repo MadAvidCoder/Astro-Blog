@@ -93,9 +93,24 @@ article {
 }
 
 .home {
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: grid;
+    place-items: center;
+}
+
+.intro-card {
+    max-width: 480px;
+    padding: 2rem;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.075);
+    text-align: center;
+    transition: box-shadow 300ms ease;
+}
+
+.intro-card:hover {
+    box-shadow: 10px 40px 60px rgba(0,0,0,0.1);
 }
 
 .home .page-header {
