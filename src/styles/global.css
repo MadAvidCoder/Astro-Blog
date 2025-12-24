@@ -1,5 +1,5 @@
 :root {
-    --bg: #ffe0d3;
+    --bg: #fff1d3;
     --surface: #ffffff;
     --border: #d1b6b3;
     --text: #2e1c1c;
@@ -10,9 +10,23 @@
     --max-width: 960px;
 }
 
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fredericka-the-great-regular {
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Advent Pro', cursive;
+    font-size: large;
+    font-weight: 500;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
