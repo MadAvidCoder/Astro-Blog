@@ -6,7 +6,7 @@ import '../../styles/global.css';
 
 const posts = (await getCollection('blog')).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+).reverse();
 ---
 
 <div class="posts-page page-shell">
